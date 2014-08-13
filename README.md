@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/iavael/racktables-vlanparse.svg?branch=develop)](https://travis-ci.org/iavael/racktables-vlanparse)
+
 # RackTables::VLANParse
 
 Gem for parsing racktables-style vlan configuration of ports.
