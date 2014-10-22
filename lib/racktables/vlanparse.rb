@@ -3,7 +3,7 @@ require 'racktables/vlanparse/version'
 
 module RackTables
   class VLAN
-    def parse(vlan)
+    def self.parse(vlan)
       input = vlan + "\0"
       output = {
         :native => nil,
