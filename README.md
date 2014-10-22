@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/iavael/racktables-vlanparse.svg?branch=develop)](https://travis-ci.org/iavael/racktables-vlanparse)
+[![Coverage Status](https://img.shields.io/coveralls/iavael/racktables-vlanparse.svg)](https://coveralls.io/r/iavael/racktables-vlanparse)
 
 # RackTables::VLANParse
 
