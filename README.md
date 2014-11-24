@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/iavael/racktables-vlanparse.svg?branch=develop)](https://travis-ci.org/iavael/racktables-vlanparse)
-[![Coverage Status](https://img.shields.io/coveralls/iavael/racktables-vlanparse.svg)](https://coveralls.io/r/iavael/racktables-vlanparse)
+[![Code Climate](https://codeclimate.com/github/iavael/racktables-vlanparse/badges/gpa.svg)](https://codeclimate.com/github/iavael/racktables-vlanparse)
+[![Test Coverage](https://codeclimate.com/github/iavael/racktables-vlanparse/badges/coverage.svg)](https://codeclimate.com/github/iavael/racktables-vlanparse)
 
 # RackTables::VLANParse
 
