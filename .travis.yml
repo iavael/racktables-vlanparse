@@ -1,9 +1,6 @@
 language: ruby
 rvm:
-- ruby-2.1.5
-addons:
-  code_climate:
-    repo_token: fff35cf0f51ddd439d180905854ac395b4cea5f405d939db94ffc1ee12000ccc
+- "2.6"
 deploy:
   provider: rubygems
   api_key:
@@ -12,3 +9,9 @@ deploy:
   on:
     tags: true
     repo: iavael/racktables-vlanparse
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULTlanguage: go
