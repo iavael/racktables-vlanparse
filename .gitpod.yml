@@ -1,2 +1,4 @@
 tasks:
   - init: bundle install
+gitConfig:
+  user.email: iavael@users.noreply.github.com
